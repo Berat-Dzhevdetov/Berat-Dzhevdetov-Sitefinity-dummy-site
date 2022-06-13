@@ -1,12 +1,8 @@
 ﻿using DummySite.Resources;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Security;
-using System.Web.SessionState;
 using Telerik.Sitefinity.Abstractions;
 using Telerik.Sitefinity.Localization;
+using DummySite.Utils;
 
 namespace DummySite
 {
@@ -51,6 +47,7 @@ namespace DummySite
         {
             // Register any Resource classes
             Res.RegisterResource<CustomRegistrationFormResource>();
+
         }
     }
 }
